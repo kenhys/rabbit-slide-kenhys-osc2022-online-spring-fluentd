@@ -1,0 +1,25 @@
+---
+id: osc2022-online-spring-fluentd
+base_name: fluentd
+tags:
+- rabbit
+- fluentd
+- osc2022
+presentation_date: 2022-03-12
+presentation_start_time:
+presentation_end_time:
+slideshare_id:
+version: 2022.03.12.1
+licenses:
+- CC-BY-SA-4.0
+slideshare_id: kenhys
+speaker_deck_id:
+vimeo_id:
+youtube_id:
+author:
+  markup_language: :md
+  name: Kentaro Hayashi
+  email: kenhys@gmail.com
+  rubygems_user: kenhys
+  slideshare_user:
+  speaker_deck_user:
