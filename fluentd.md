@@ -53,10 +53,17 @@ theme
   * 各種プラットフォーム向け(deb,rpm,msiなど)
   * おおよそ4ヶ月ごとリリース
 
+# 最新パッケージ版
+
+* TD Agent 4.3.0 (2021-12-13)
+  * Fluentd+プラグイン集
+  * 各種プラットフォーム向け(deb,rpm,msiなど)
+  * おおよそ4ヶ月ごとリリース
+* Calyptia Fluentd
+
 # 従来のパッケージの課題
 
 * パッケージを簡単につくれる・維持できる仕組みが必要
-
 
 # TD Agent v3
 
@@ -85,6 +92,8 @@ theme
 
 * https://github.com/fluent/fluentd/issues
 * https://discuss.fluentd.org/
+  * GitHub Discussionsへ移行予定
+  * https://github.com/fluent/fluentd/discussions
 * https://fluent-all.slack.com/
 
 
