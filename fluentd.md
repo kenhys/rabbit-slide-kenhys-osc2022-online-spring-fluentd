@@ -24,7 +24,10 @@ theme
 
 # Fluentdとは
 
-![](images/fluentd.png)
+![](images/fluentd.png){:relative-height="90"}
+
+{::note}https://docs.fluentd.org/quickstart{:/note}
+
 
 # 最新のリリース
 
