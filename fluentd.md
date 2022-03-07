@@ -86,11 +86,14 @@ theme
 
 # コミュニティーサポート
 
-* https://github.com/fluent/fluentd/issues
-* https://discuss.fluentd.org/
-  * GitHub Discussionsへ移行予定
-  * https://github.com/fluent/fluentd/discussions
-* https://fluent-all.slack.com/
+* GitHub Issues
+  * {::note}https://github.com/fluent/fluentd/issues{:/note}
+* Discource
+  * {::note}https://discuss.fluentd.org/{:/note}
+  * GitHub Discussionsへ移行
+    * {::note}https://github.com/fluent/fluentd/discussions{:/note}
+* Slack 
+  {::note}https://fluent-all.slack.com/{:/note}
 
 
 # よいフィードバックをもらうために工夫したこと
