@@ -46,6 +46,7 @@ theme
 
 * Fluentd gemの公開
 * ブログ記事公開
+  * {::note}https://www.fluentd.org/blog/{:/note}
 * Dockerイメージの公開
 * TD Agentの公開(随時)
 
