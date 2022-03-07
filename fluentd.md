@@ -132,10 +132,10 @@ theme
 
 # なぜこうなるのか？
 
-* それなりの規模のソフトウェアでありがちなこと
+* それなりに使われているソフトウェアでありがちなこと
   * 背景もばらばらな人がフィードバックしてくれる
-  * フィードバックで提供してもらえる内容がまちまち
-  * 再現に必要な情報が不足している
+  * 報告する人がわかっていることは省略する傾向にある
+* 再現に必要な情報が不足している
 
 # やりたいこと
 
@@ -150,19 +150,20 @@ theme
   * 単なる使い方の質問のissueで埋もれない
   * プラグインに関するissueに埋もれない
 
-# 使い方を知りたい人向け
-
-* GitHubのissueからdiscuss(Discource)への誘導
-  * 課題: 開発者以外で回答する人が不足😞
-  * 開発者側でトラッキングがしにくい😞
-
-{::note}https://discuss.fluentd.org/{:/note}
-
 # GitHub Issue Formsを使って報告するときに選択させる
 
 ![](images/list-issue-forms.png)
 
 {::note}https://github.com/fluent/fluentd/issues/new/choose{:/note}
+
+# 使い方を知りたい人向け
+
+* GitHubのissueからdiscuss(Discource)への誘導
+  * 課題: 開発者以外で回答する人が不足😞
+  * 開発者側でトラッキングがしにくい😞
+  * 結果: あまりうまくいかなかった
+
+{::note}https://discuss.fluentd.org/{:/note}
 
 # 従来のIssueテンプレート
 
