@@ -126,7 +126,7 @@ theme
 ![](images/missing-required-information.png)
 
 
-# 各種ガイドラインを\\n人は読まない
+# 各種ガイドラインを\\n読まない……ことも
 
 ![](images/issue-template.png)
 
