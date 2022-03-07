@@ -107,7 +107,7 @@ theme
   {::note}https://fluent-all.slack.com/{:/note}
 
 
-# 従来のIssueの課題
+# 従来のGitHub Issueの課題
 
 * {::note}https://github.com/fluent/fluentd/issues{:/note}
 
