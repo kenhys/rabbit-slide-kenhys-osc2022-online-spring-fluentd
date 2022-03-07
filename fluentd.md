@@ -106,9 +106,45 @@ theme
   {::note}https://fluent-all.slack.com/{:/note}
 
 
-# よいフィードバックをもらうために工夫したこと
+# 従来のIssueの課題
 
-* GitHubのissueの役割をしぼる
+* {::note}https://github.com/fluent/fluentd/issues{:/note}
+
+![](images/fluentd-issues.png)
+
+# ありがちなこと(1)
+
+* Fluentdと直接関係ないプラグインの質問がくる
+ 
+![](images/non-fluentd-issue.png)
+
+# ありがちなこと(2)
+
+* 再現に必要な情報が不足
+
+![](images/missing-required-information.png)
+
+
+# 各種ガイドラインを\\n人は読まない
+
+![](images/issue-template.png)
+
+# なぜこうなるのか？
+
+* それなりの規模のソフトウェアでありがちなこと
+  * 背景もばらばらな人がフィードバックしてくれる
+  * フィードバックで提供してもらえる内容がまちまち
+  * 再現に必要な情報が不足している
+
+# やりたいこと
+
+* よいフィードバックをもらいたい
+  * 本体の不具合や機能に関する要望など
+  * **再現可能な情報**が含まれている
+
+# 対策
+
+* GitHubのissueの役割を**仕組みで**しぼる
   * 不具合報告 or 機能の要望のみにする
   * 単なる使い方の質問のissueで埋もれない
   * プラグインに関するissueに埋もれない
@@ -117,33 +153,27 @@ theme
 
 * GitHubのissueからdiscuss(Discource)への誘導
   * 課題: 開発者以外で回答する人が不足😞
+  * 開発者側でトラッキングがしにくい😞
 
 {::note}https://discuss.fluentd.org/{:/note}
 
-# issueを作成するときに示す
+# GitHub Issue Formsを使って報告するときに選択させる
 
 ![](images/list-issue-forms.png)
 
 {::note}https://github.com/fluent/fluentd/issues/new/choose{:/note}
 
-# よいフィードバックをもらうために工夫したこと
-
-* それなりの規模のソフトウェアでありがちなこと
-  * 背景もばらばらな人がフィードバックしてくれる
-  * フィードバックで提供してもらえる内容がまちまち
-  * 再現に必要な情報が不足している
-
-# 従来のissueテンプレート
+# 従来のIssueテンプレート
 
 ![](images/issue-template.png)
 
-# 従来のissueテンプレート
+# 従来のIssueテンプレート
 
 * 入力項目が別れていない
 * 必須項目を指定できない
 * テンプレートを消して報告してくる強者も
 
-# Issue formsの整備
+# 集めたい項目
 
 * バグの内容
 * 動作環境
@@ -152,7 +182,7 @@ theme
 * エラーログ
 * 設定内容
 
-# Issue formsを活用
+# GitHub\\nIssue Formsを活用
 
 ![](images/issue-forms.png)
 
@@ -162,7 +192,7 @@ theme
 # Issueのメンテナンス
 
 * 反応がないIssueというのもある
-  * 放置されたIssueは閉じる
+  * 放置されたIssueはGitHub Actionで閉じる
 
 {::note}https://github.com/actions/stale{:/note}
 
