@@ -73,9 +73,9 @@ theme
 
 * fluent-package-builder
   * Dockerベースのビルドに刷新
+    * 環境構築や属人化の問題を解決
   * arm64のサポート
   * GitHub ActionsによるCI
-
 {::note}https://github.com/fluent/fluent-package-builder{:/note}
 
 # 今日お話すること
