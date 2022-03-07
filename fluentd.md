@@ -1,7 +1,7 @@
 # OSSを継続的に\\nメンテナンスしていく\\n仕組みづくり
 
 subtitle
-:  Fluentdの事例とその最新情報
+:  Fluentdの事例
 
 author
 :  Kentaro Hayashi
