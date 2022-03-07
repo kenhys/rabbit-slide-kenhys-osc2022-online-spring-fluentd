@@ -78,6 +78,14 @@ theme
   * GitHub ActionsによるCI
 {::note}https://github.com/fluent/fluent-package-builder{:/note}
 
+
+# 注意喚起
+
+* TD Agent v3はすでにEOLです
+  * {::note}https://www.fluentd.org/blog/schedule-for-td-agent-3-eol{:/note}
+  * v4への移行手順も案内しています
+    * {::note}https://www.fluentd.org/blog/upgrade-td-agent-v3-to-v4{:/note}
+
 # 今日お話すること
 
 * Fluentdを継続的にメンテナンスしたい
