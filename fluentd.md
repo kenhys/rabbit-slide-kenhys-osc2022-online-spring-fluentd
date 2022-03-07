@@ -228,10 +228,10 @@ theme
 
 # メンテナンスを移行するには
 
-* contactリポジトリを用意
+* contactリポジトリで移行の相談
+  {::note}https://github.com/fluent-plugins-nursery/contact{:/note}
 * issueでownershipの移転のための手続きを実施
-
-{::note}https://github.com/fluent-plugins-nursery/contact{:/note}
+  * 最近の事例: fluent-plugin-remote_syslog
 
 # よりオープンな開発方針
 
