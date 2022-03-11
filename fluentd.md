@@ -100,6 +100,7 @@ theme
 * 1000以上の3rdパーティープラグインがある
   * {::note}https://www.fluentd.org/plugins{:/note}
 * なかにはメンテナンスを継続できないケースも
+  * 開発者が使わなくなった...etc
 
 
 # fluent-plugins-nursery
