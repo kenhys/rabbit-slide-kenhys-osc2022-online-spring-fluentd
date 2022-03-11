@@ -150,7 +150,7 @@ theme
   * 単なる使い方の質問のissueで埋もれない
   * プラグインに関するissueに埋もれない
 
-# GitHub Issue Formsを使って報告するときに選択させる
+# テンプレート選択画面を設定する
 
 ![](images/list-issue-forms.png)
 
