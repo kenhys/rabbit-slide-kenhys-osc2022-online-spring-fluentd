@@ -19,8 +19,8 @@ theme
 
 * OSS(Fluentd)を継続的にメンテナンスしていく仕組みづくり
   * リリースするための仕組みを改善したこと
-  * よいフィードバックをもらうために工夫したこと
   * プラグインを引き取る仕組みがあること
+  * よいフィードバックをもらうために工夫したこと
 
 # Fluentdとは
 
@@ -89,10 +89,39 @@ theme
 
 # 今日お話すること
 
+* Fluentdを継続的にメンテナンスしたい
+  * ~~リリースするための仕組みを改善したこと~~
+  * プラグインを引き取るしくみがあること
+  * よいフィードバックをもらうために工夫したこと
+
+# Fluentdとプラグイン
+
+* 1000以上の3rdパーティープラグインがある
+  * {::note}https://www.fluentd.org/plugins{:/note}
+* なかにはメンテナンスを継続できないケースも
+
+
+# fluent-plugins-nursery
+
+* メンテナンスを継続するためのプロジェクト
+* リポジトリを移行してメンテナンスを継続
+* もちろん配下で開発し続けてもよい
+
+{::note}https://github.com/fluent-plugins-nursery/{:/note}
+
+# メンテナンスを移行するには
+
+* contactリポジトリで移行の相談
+  {::note}https://github.com/fluent-plugins-nursery/contact{:/note}
+* issueでownershipの移転のための手続きを実施
+  * 最近の事例: fluent-plugin-remote_syslog
+
+# 今日お話すること
+
 * OSS(Fluentd)を継続的にメンテナンスしていく仕組みづくり
   * ~~リリースするための仕組みを改善したこと~~
+  * ~~プラグインを引き取るしくみがあること~~
   * よいフィードバックをもらうために工夫したこと
-  * プラグインを引き取るしくみがあること
 
 
 # コミュニティーサポート
@@ -203,35 +232,6 @@ theme
 * Issueの役割を明確にする(不具合・要望)
 * Issue Formsで必要な情報を集める
 * 古いIssueをGitHub Actionsで閉じる
-
-# 今日お話すること
-
-* Fluentdを継続的にメンテナンスしたい
-  * ~~リリースするための仕組みを改善したこと~~
-  * ~~よいフィードバックをもらうために工夫したこと~~
-  * プラグインを引き取るしくみがあること
-
-# Fluentdとプラグイン
-
-* 多くの3rdパーティープラグインがある
-* なかにはメンテナンスを継続できないケースも
-
-{::note}https://www.fluentd.org/plugins{:/note}
-
-# fluent-plugins-nursery
-
-* メンテナンスを継続するためのプロジェクト
-* リポジトリを移行してメンテナンスを継続
-* もちろん配下で開発し続けてもよい
-
-{::note}https://github.com/fluent-plugins-nursery/{:/note}
-
-# メンテナンスを移行するには
-
-* contactリポジトリで移行の相談
-  {::note}https://github.com/fluent-plugins-nursery/contact{:/note}
-* issueでownershipの移転のための手続きを実施
-  * 最近の事例: fluent-plugin-remote_syslog
 
 # よりオープンな開発方針
 
