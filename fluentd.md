@@ -15,6 +15,12 @@ allotted-time
 theme
 :  .
 
+# 発表資料について
+
+![](images/presentation.png){:relative-height="80"}
+
+{::note}https://slide.rabbit-shocker.org/authors/kenhys/osc2022-online-spring-fluentd/{:/note}
+
 # 今日お話すること
 
 * OSS(Fluentd)を継続的にメンテナンスしていく仕組みづくり
